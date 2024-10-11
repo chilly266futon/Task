@@ -14,6 +14,5 @@ import (
 // Returns:
 //   - The maximum of the two float64 numbers.
 func MaxNum(a, b float64) float64 {
-	res := (a + b + math.Abs(a-b)) / 2
-	return res
+	return (a + b + math.Abs(a-b)) / 2
 }
