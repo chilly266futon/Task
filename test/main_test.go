@@ -1,6 +1,9 @@
 package test
 
-import "testing"
+import (
+	. "awesomeProject"
+	"testing"
+)
 
 func Test_MaxNum(t *testing.T) {
 	a := 57.0
